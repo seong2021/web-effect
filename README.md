@@ -39,3 +39,7 @@ CSS3 Transform Effects on Scroll | Html CSS Vanilla Javascript
 ref: https://www.youtube.com/watch?v=7exL28RKb5w
 
 CSS3 Transform Effects on Scroll 2 | Html CSS Vanilla Javascript Skewed Background
+
+ref: https://www.youtube.com/watch?v=yJsOXvZhLVk
+
+CSS3 Clip-path Transform Effects on Scroll 3 | Html CSS Vanilla Javascript
