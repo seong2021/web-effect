@@ -1,5 +1,11 @@
 # web-effect
 
+## masked-background
+
+ref: https://www.youtube.com/watch?v=AZTXIwn54GI
+
+Background 배경 속성을 활용한 마스크 레이아웃 만들기
+
 ## parallax-opentutorials
 
 ref: https://opentutorials.org/course/2473/13856
