@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        height: 200vh;
+      }
+      #main {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+      }
+      .box {
+        width: 200px;
+        height: 250px;
+        display: inline-block;
+        overflow: hidden;
+      }
+      .letter {
+        font-family: fantasy;
+        font-size: 8cm;
+        line-height: 250px;
+        position: relative;
+        left: -160px;
+        transition: all 0.25s linear;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).scroll(function () {
+        let scroll = $(window).scrollTop();
+        let amount = -160 + scroll * 0.4;
+        if (amount < 10) {
+          $(".letter").css({ left: amount + "px" });
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="main">
+      <div class="box">
+        <div class="letter">D</div>
+      </div>
+      <div class="box">
+        <div class="letter">A</div>
+      </div>
+      <div class="box">
+        <div class="letter">F</div>
+      </div>
+      <div class="box">
+        <div class="letter">T</div>
+      </div>
+    </div>
+  </body>
+</html>

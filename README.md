@@ -23,3 +23,9 @@ ref: https://opentutorials.org/course/2473/13856
 ref: https://www.youtube.com/watch?v=8mvb5L6VXbk
 
 flex css animation, 줄무늬 메뉴 구현하기
+
+## text-animation-on-scroll
+
+ref: https://www.youtube.com/watch?v=_G75ikML0Oc
+
+Text Animation on Scroll | CSS - JavaScript Tutorial | Daft Creation
