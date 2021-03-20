@@ -1,0 +1,142 @@
+html {
+  font-family: "Raleway", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+.global-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: fit-content;
+  padding-top: 1em;
+}
+.global-nav a {
+  position: relative;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+  transform: translateX(-50%);
+}
+.global-nav svg {
+  width: 32px;
+  height: 32px;
+}
+.side-logo {
+  position: fixed;
+  top: 50%;
+  z-index: 10;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.side-logo-left {
+  transform-origin: 0% 50%;
+  transform: rotate(-90deg) translate3d(-50%, 120%, 0);
+}
+.side-logo-right {
+  right: 0px;
+  transform-origin: 100% 50%;
+  transform: rotate(90deg) translate3d(50%, 120%, 0);
+}
+
+.scroll-section {
+  position: relative;
+}
+#scroll-section-0 {
+  background: #000000;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#scroll-section-0 .flash-message {
+  position: absolute;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#scroll-section-0 .flash-message p {
+  color: #ffffff;
+  font-size: 2rem;
+}
+#scroll-section-0 .flash-message.a p {
+  animation: flash-a linear 4s infinite;
+}
+#scroll-section-0 .flash-message.b p {
+  animation: flash-b linear 4s infinite;
+}
+
+#scroll-section-1 {
+  background: #ffffff;
+}
+#scroll-section-1 .title-message {
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  text-transform: uppercase;
+}
+#scroll-section-1 .title-message p {
+  margin: 1em auto;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+}
+#scroll-section-1 .caption-message {
+  position: fixed;
+  top: 47%;
+  left: 10%;
+  /* opacity: 0; */
+}
+#scroll-section-1 .caption-message .caption-title {
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: italic;
+}
+#scroll-section-1 .caption-message .caption-description {
+  margin-top: 0.5em;
+  font-size: 1rem;
+}
+
+@keyframes flash-a {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash-b {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
