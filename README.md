@@ -20,6 +20,12 @@ ref: https://www.youtube.com/watch?v=tRve72dq4MU
 
 Moving Text on Scroll - Html CSS and Javascript
 
+## music-player1
+
+ref: https://codepen.io/snowleo208/pen/zJMqog
+
+Javascript Music Player
+
 ## parallax-opentutorials
 
 ref: https://opentutorials.org/course/2473/13856
