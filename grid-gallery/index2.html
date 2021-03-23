@@ -10,7 +10,7 @@
         margin: 20px;
         padding: 0;
       }
-      .container {
+      .gallery-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: 50%;
@@ -53,50 +53,36 @@
   </head>
   <body>
     <h1>CSS Grid gallery</h1>
-    <div class="container">
-      <div class="gallery-container w-2">
-        <div class="gallery-item">
-          <div class="image">
-            <img
-              src="http://source.unsplash.com/1600x900/?nature"
-              alt="nature"
-            />
-          </div>
-          <div class="text">nature 1</div>
+    <div class="gallery-container">
+      <div class="gallery-item w-2">
+        <div class="image">
+          <img src="http://source.unsplash.com/1600x900/?nature" alt="nature" />
         </div>
+        <div class="text">nature 1</div>
       </div>
 
-      <div class="gallery-container">
-        <div class="gallery-item">
-          <div class="image">
-            <img
-              src="http://source.unsplash.com/1600x900/?people"
-              alt="people"
-            />
-          </div>
-          <div class="text">people 2</div>
+      <div class="gallery-item">
+        <div class="image">
+          <img src="http://source.unsplash.com/1600x900/?people" alt="people" />
         </div>
+        <div class="text">people 2</div>
       </div>
 
-      <div class="gallery-container">
-        <div class="gallery-item">
-          <div class="image">
-            <img src="http://source.unsplash.com/1600x900/?sport" alt="sport" />
-          </div>
-          <div class="text">sport 3</div>
+      <div class="gallery-item">
+        <div class="image">
+          <img src="http://source.unsplash.com/1600x900/?sport" alt="sport" />
         </div>
+        <div class="text">sport 3</div>
       </div>
 
-      <div class="gallery-container w-2">
-        <div class="gallery-item">
-          <div class="image">
-            <img
-              src="http://source.unsplash.com/1600x900/?fitness"
-              alt="fitness"
-            />
-          </div>
-          <div class="text">fitness 4</div>
+      <div class="gallery-item w-2">
+        <div class="image">
+          <img
+            src="http://source.unsplash.com/1600x900/?fitness"
+            alt="fitness"
+          />
         </div>
+        <div class="text">fitness 4</div>
       </div>
     </div>
   </body>
