@@ -44,6 +44,12 @@ ref: https://www.youtube.com/watch?v=_G75ikML0Oc
 
 Text Animation on Scroll | CSS - JavaScript Tutorial | Daft Creation
 
+## ticker-scrolling-animation
+
+ref: https://www.youtube.com/watch?v=3T4rD_P2nc8
+
+Pure CSS Infinite News Ticker Scrolling Animation Effects
+
 ## transform-effects-on-scroll
 
 ref: https://www.youtube.com/watch?v=lZ-OO7x75Rc
